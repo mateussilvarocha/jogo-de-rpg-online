@@ -20,7 +20,6 @@ var personagem = {
     'nivel': 1,
     'experienciaParaNivel': 100
 };
-
 function updatePersonagem() {
     if (personagem !== null) {
         vidaPersonagem.innerHTML = `Sua vida: ${personagem.vida}`;
